@@ -4,13 +4,13 @@
 using namespace std;
 
 // Example of input: 5/12
-// "5 12" will be taken as 5/1 and 12/1 !
+// "5 12" will be recieved as 5/1 and 12/1 !
 
 int main() 
 {
 	Rational a, b, c;
 
-	cout << "Enter arguments A, B, C:\n(ex.: 1/2 -2/3 1 will be taken as x^2/2 - 2*x/3 + 1)\n" << endl;
+	cout << "Enter arguments A, B, C:\n(ex.: 1/2 -2/3 1 will be recieved as x^2/2 - 2*x/3 + 1)\n" << endl;
 	cin >> a >> b >> c;
 
 	if (a == 0)
